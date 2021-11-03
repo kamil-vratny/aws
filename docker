@@ -12,3 +12,12 @@ docker ps -a
 docker images
 docker rmi httpd
 docker images
+
+---
+
+vim Dockerfile
+vim hello
+chmod 755 hello
+docker build -t hello .
+docker images
+docker run hello
